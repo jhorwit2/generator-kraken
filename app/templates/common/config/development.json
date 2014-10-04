@@ -43,7 +43,7 @@
                         },<% } %><% if (cssModule) { %>
                         "css": {
                             "module": "kraken-devtools/plugins/<%= cssModule %>",
-                            "files": "/css/**/*.css"
+                            "files": "/**/*.css"
                         },<% } %>
                         "copier": {
                             "module": "kraken-devtools/plugins/copier",
